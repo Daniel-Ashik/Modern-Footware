@@ -1,0 +1,120 @@
+#nav-input{
+    background-color: #ebebeb;
+    width: 293px;
+}
+
+#nav-location{
+    margin-left: 23px;
+    width: 160px;
+    position: relative;
+}
+#nav-icon-3{
+    cursor: pointer;
+}
+.dropdown-menu{
+    border: 0 !important;
+}
+#home-img-1{
+    width: 100%;
+    position: relative;
+}
+#see-all-btn{
+    color: #E00804;
+}
+#home-img-shopnowbtn{
+    position:relative;
+    bottom: 55px;
+    margin-left: 55%;
+}
+#home-img-shopnowbtn1{
+    background-color: #E00804;
+    border: none;
+    border-radius: 18px;
+    width: 160px;
+    height:30px;
+}
+#carousel-cards{
+    width: 15rem;
+}
+#carousel-del-amt{
+    color: #5e5d5d;
+}
+#carousel-cards2{
+    width: 15rem;
+    position: relative;
+}
+#like-btn,#likebtn1{
+    position: absolute;
+    width:30px;
+    margin-top: 8px;
+    margin-left: 182px;
+}
+#modern-footware-bgcolor{
+    background-color: #f6f6f6;
+    /* background: fixed; */
+}
+#modern-footware-para{
+    color: #5e5d5d;
+    text-align: justify;
+}
+#navbar-total{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+#footer-bgcolor{
+    background-color: #F1DEDD;
+}
+#footer-topic{
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #E00804;
+}
+#tag-anchor{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#google-play-button{
+    cursor: pointer;
+}
+#footer-social-media-logo{
+    cursor: pointer;
+}
+#navbar-location{
+    text-decoration: none;
+}
+#mens-chappals{
+   width: 80px; 
+}
+#pagination-nav-btn{
+    width: 150px;
+    position: relative;
+}
+#m-chappals-detail{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+    white-space: nowrap;
+}
+#m-chappals-shortby{
+    margin-right: 45px;
+}
+.new1{
+    border-top: 2px solid rgb(46, 45, 45);
+}
+@media screen and (max-width:992px){
+    #carousel-cards,#carousel-cards2{
+        width: 25rem;
+    }
+    #left-carousel-btn,#right-carousel-btn{
+        display: none;
+    }
+}
+@media screen and (min-width:968px){
+    #nav-search{
+        margin-left: 180px;
+    }
+}
+

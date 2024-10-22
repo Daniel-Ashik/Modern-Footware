@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="m.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="m.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <%- include('header.ejs') %>
+    
+    <div class="">
+        <img id="home-img-1" src="images/Group 393.png">
+        <div id="home-img-shopnowbtn">
+            <button id="home-img-shopnowbtn1" class="fw-semibold text-white">Shop Now</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-12">
+            <img width="100%" src="./images/Rectangle 129.png">
+        </div>
+        <div class="col-md-6 col-12">
+            <img width="100%" src="./images/Rectangle 130.png">
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
+        <span class="fw-bold fs-3">Shop By Brands</span>
+        <div class="row text-center">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 86(1).png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 87(1).png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 88(1).png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 90(1).png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 91(1).png">
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-12 mt-3">
+                <img src="./images/Group 92(1).png">
+            </div>
+        </div>
+    </div>
+    <div class="mt-4" style="background-color: #F5EAEA;">
+        <div class="d-flex justify-content-between">
+            <span class="fw-semibold fs-3 ms-3">Recently Viewed</span>
+            <button id="see-all-btn" class="border-0 bg-transparent fw-semibold fs-4">See all <i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div id="rviewed" class="row mt-3 d-flex justify-content-around p-3">
+                 
+                <div class="carousel-item">
+                    <div id="rviewed" class="row mt-3 d-flex justify-content-around p-3">
+                        <!-- <div class="card col-2" id="carousel-cards">
+                            <img class="p-5" src="image 36 (1).png" class="card-img-top" alt="...">
+                            <div class="card-body text-center fw-semibold">
+                                <span>Aetrex Summer</span><br>
+                                <span>Men's Slipper</span>
+                            </div>
+                        </div> -->
+                        <!-- <div class="card col-2" id="carousel-cards">
+                            <img class="p-5" src="image 37.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center fw-semibold">
+                                <span>BRUTON</span><br>
+                                <span>Men Black Sandal</span>
+                            </div>
+                        </div> -->
+                        <!-- <div class="card col-2" id="carousel-cards">
+                            <img class="p-5" src="image 38.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center fw-semibold">
+                                <span>22 L Hand Duffel Bag</span><br>
+                                <span>Cross Training</span>
+                            </div>
+                        </div> -->
+                        <!-- <div class="card col-2" id="carousel-cards">
+                            <img class="p-5" src="image 39.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center fw-semibold">
+                                <span>Men Casual Tan</span><br>
+                                <span>Synthetic Belt</span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div id="rviewed" class="row mt-3 d-flex justify-content-around p-3">
+                
+                    </div>
+                </div>
+            </div>
+            <button id="left-carousel-btn" class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span style="margin-right: 145px;" class="carousel-control-prev-icon" aria-hidden="true">
+                    <img src="Group 99 (1).png">
+                </span>
+            </button>
+            <button id="right-carousel-btn" class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"> -->
+                <img style="margin-left: 100px;" src="Group 100 (1).png">
+                <!-- </span> -->
+            </button>
+        </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-between">
+        <p class="fw-semibold fs-3 ms-3">Trending Items</p>
+        <button id="see-all-btn" class="border-0 bg-transparent fw-semibold fs-4">See all <i
+                class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div  class="carousel-item active">
+                <div id="titems" class="row mt-3 d-flex justify-content-around p-3">
+                   
+                </div>      
+            </div>
+            <div class="carousel-item">
+                <div id="titems" class="row mt-3 d-flex justify-content-around p-3">
+                    <!-- <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 42.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Boss-Grass...</p>
+                            <div class="d-flex gap-2 mt-5">
+                                <del class="mt-1" id="carousel-del-amt">499</del>
+                                <span class="fw-bold fs-5">Rs.399</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" width="72%" src="image 43.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Fortuner Ankle...</p>
+                            <div class="d-flex gap-2">
+                                <del class="mt-1" id="carousel-del-amt">499</del>
+                                <span class="fw-bold fs-5">Rs.299</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 44.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Hygear mens Xpress Slipper</p>
+                            <div class="d-flex gap-2">
+                                <del class="mt-1" id="carousel-del-amt">700</del>
+                                <span class="fw-bold fs-5">Rs.419</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 45.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Shrek Tr E Slipper</p>
+                            <div class="d-flex gap-2 mt-4">
+                                <del class="mt-1" id="carousel-del-amt">699</del>
+                                <span class="fw-bold fs-5">Rs.550</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div id="titems" class="row mt-3 d-flex justify-content-around p-3">
+                    <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" width="72%" src="image 43.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Fortuner Ankle...</p>
+                            <div class="d-flex gap-2">
+                                <del class="mt-1" id="carousel-del-amt">499</del>
+                                <span class="fw-bold fs-5">Rs.299</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 44.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Hygear mens Xpress Slipper</p>
+                            <div class="d-flex gap-2">
+                                <del class="mt-1" id="carousel-del-amt">700</del>
+                                <span class="fw-bold fs-5">Rs.419</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 45.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Shrek Tr E Slipper</p>
+                            <div class="d-flex gap-2 mt-4">
+                                <del class="mt-1" id="carousel-del-amt">699</del>
+                                <span class="fw-bold fs-5">Rs.550</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card col-2" id="carousel-cards2">
+                        <img class="p-4" src="image 46.png" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's PU Synthetic...</p>
+                            <div class="d-flex gap-2">
+                                <del class="mt-1" id="carousel-del-amt">499</del>
+                                <span class="fw-bold fs-5">Rs.379</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="left-carousel-btn" class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <span style="margin-right: 145px;" class="carousel-control-prev-icon" aria-hidden="true">
+                <img src="Group 99 (1).png">
+            </span>
+        </button>
+        <button id="right-carousel-btn" class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <img style="margin-left: 30px;" src="Group 100 (1).png">
+            </span>
+        </button>
+    </div>
+    <div id="modern-footware-bgcolor">
+        <div class="mt-2 text-center fw-semibold fs-3">
+            <p>Modern Footware - Buy Footware Online in India</p>
+        </div>
+        <div class="p-2" id="modern-footware-para">
+            <p>Modern Footwears was established in the year 1995 by P.M. Abdul Gafoor. After the founder's demise, his
+                son M. Shanooj Gafoor took charge of the business in 2007. In 2012, a new multi-brand showroom was
+                inaugurated by Dr. A.P. Majeed Khan, the Chancellor of Noorul Islam University. The showroom was further
+                extended in 2015 by adding a men's wear, toys, and stationery section.</p>
+            <h5 class="text-black fw-semibold">Why Modern Footwear?</h5>
+            <p>Modern Footwear offers exclusive and fashionable Footwear at affordable prices. Our footwear is perfect
+                for any occasion.</p>
+            <h5 class="text-black fw-semibold">Modern Footwear is your one-stop destination for fashionable footwear.
+            </h5>
+            <p>Discover our range of trendy footwear for casual wear, festivals, men, women, boys, and girls, complete
+                with matching backpacks, handbags, wallets, trolleys, and
+                travel bags.</p>
+            <h5 class="text-black fw-semibold">Footwear FAQ</h5>
+            <h6 class="fw-semibold">Why should I choose modern footwear?</h6>
+            <p>Our Online Modern footwear stores offer a wide selection of designs for various occasions at affordable
+                prices Range.</p>
+            <h6 class="fw-semibold">How to measure Footwear size?</h6>
+            <p>Place your foot on an A4 paper and vertically hold your pen to make a dot at the end of your heel and
+                longest toe, then trace the outline of your foot. Measure the distance between both points with a ruler
+                to note the centimetres. Do the same for your other foot and check out the brand’s size chart to find
+                your perfect size</p>
+            <h6 class="fw-semibold">Can all types of Footwear be washed?</h6>
+            <p>Rubber and silicone footwear can be washed while others cannot. However, with cleaning, caring, and
+                shining products, maintaining your footwear's new and fresh look will be easy</p>
+        </div>
+    </div>
+<%- include('footer.ejs') %>
+</body>
+<script>
+    let trnditems='<%=trending_items%>'
+    trnditems=trnditems.split(',')
+    let titems=''
+    for(let j of trnditems){
+        titems=titems+`
+        <div class="card col-2" id="carousel-cards2">
+                        <img width=108px class="p-4" src="./images/trending_items/${j}" class="card-img-top" alt="...">
+                        <img id="like-btn" src="component 34.png">
+                        <div class="card-body text-center fw-semibold">
+                            <p>Bata Men's Boss-Grass...</p>
+                            <div class="d-flex gap-2 mt-5">
+                                <del class="mt-1" id="carousel-del-amt">499</del>
+                                <span class="fw-bold fs-5">Rs.399</span>
+                            </div>
+                        </div>
+                    </div>`
+    }
+    $('#titems').html(titems)
+
+async function getProductImages(){
+    let result=await $.ajax({
+        method:'post',
+        url:`/productimages`
+    })
+    let rviewed=''
+        for (const i of result.recently_viewed){
+             rviewed=rviewed+`
+             <div id="carousel-cards" class="card col-2">
+                            <img class="p-5" src="./images/recently_viewed/${i}"
+                                class="card-img-top" alt="...">
+                            <div class="card-body text-center fw-semibold">
+                                <span>Aetrex Summer</span><br>
+                                <span>Men's Slipper</span>
+                            </div>
+                        </div>`
+        }
+        $("#rviewed").html(rviewed)
+
+}
+getProductImages()
+        
+
+
+    $('#likebtn1').hide()
+    let unlike = true
+    function changeColorRed() {
+        if (unlike) {
+            $('#likebtn1').show()
+            $('#like-btn').hide()
+            unlike = false
+        } else {
+            $('#likebtn1').hide()
+            $('#like-btn').show()
+            unlike = true
+        }
+    }
+
+</script>
+
+</html>
